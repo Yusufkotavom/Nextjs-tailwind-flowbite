@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Script from 'next/script';
 import { siteConfig } from '../../config/site.config';
 
 interface OrganizationSnippetProps {
@@ -157,13 +157,12 @@ export default function RichSnippet(props: RichSnippetProps) {
   if (!structuredData) return null;
 
   return (
-    <Head>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(structuredData),
-        }}
-      />
-    </Head>
+    <Script
+      id="structured-data"
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(structuredData),
+      }}
+    />
   );
 }
