@@ -1,0 +1,162 @@
+{
+  "main": [
+    {
+      "name": "Beranda",
+      "href": "/",
+      "description": "Halaman utama website"
+    },
+    {
+      "name": "Industri",
+      "href": "#",
+      "description": "Solusi untuk berbagai industri",
+      "children": [
+        {
+          "name": "Teknologi & IT",
+          "href": "/industri/teknologi",
+          "description": "Solusi teknologi untuk transformasi digital"
+        },
+        {
+          "name": "Kesehatan & Medis",
+          "href": "/industri/kesehatan",
+          "description": "Platform digital untuk layanan kesehatan"
+        },
+        {
+          "name": "Pendidikan & Pelatihan",
+          "href": "/industri/pendidikan",
+          "description": "Solusi e-learning dan manajemen pendidikan"
+        },
+        {
+          "name": "E-Commerce & Retail",
+          "href": "/industri/ecommerce",
+          "description": "Platform jual beli online"
+        },
+        {
+          "name": "Keuangan & Fintech",
+          "href": "/industri/keuangan",
+          "description": "Solusi finansial digital"
+        },
+        {
+          "name": "Kuliner & F&B",
+          "href": "/industri/kuliner",
+          "description": "Platform digital untuk bisnis kuliner"
+        },
+        {
+          "name": "Properti & Real Estate",
+          "href": "/industri/properti",
+          "description": "Solusi digital untuk bisnis properti"
+        },
+        {
+          "name": "Otomotif & Transportasi",
+          "href": "/industri/otomotif",
+          "description": "Platform untuk industri otomotif"
+        }
+      ]
+    },
+    {
+      "name": "Harga",
+      "href": "/pricing",
+      "description": "Paket harga dan layanan kami"
+    },
+    {
+      "name": "Blog",
+      "href": "/blog",
+      "description": "Artikel dan tips bisnis"
+    },
+    {
+      "name": "Tentang",
+      "href": "/about",
+      "description": "Tentang perusahaan kami"
+    },
+    {
+      "name": "Kontak",
+      "href": "/contact",
+      "description": "Hubungi tim kami"
+    }
+  ],
+  "footer": [
+    {
+      "title": "Perusahaan",
+      "links": [
+        {
+          "name": "Tentang Kami",
+          "href": "/about"
+        },
+        {
+          "name": "Karir",
+          "href": "/karir"
+        },
+        {
+          "name": "Press Release",
+          "href": "/press"
+        },
+        {
+          "name": "Partner",
+          "href": "/partner"
+        }
+      ]
+    },
+    {
+      "title": "Layanan",
+      "links": [
+        {
+          "name": "Website Development",
+          "href": "/layanan/website"
+        },
+        {
+          "name": "Mobile App",
+          "href": "/layanan/mobile"
+        },
+        {
+          "name": "E-Commerce",
+          "href": "/layanan/ecommerce"
+        },
+        {
+          "name": "Digital Marketing",
+          "href": "/layanan/marketing"
+        }
+      ]
+    },
+    {
+      "title": "Industri",
+      "links": [
+        {
+          "name": "Teknologi",
+          "href": "/industri/teknologi"
+        },
+        {
+          "name": "Kesehatan",
+          "href": "/industri/kesehatan"
+        },
+        {
+          "name": "Pendidikan",
+          "href": "/industri/pendidikan"
+        },
+        {
+          "name": "E-Commerce",
+          "href": "/industri/ecommerce"
+        }
+      ]
+    },
+    {
+      "title": "Dukungan",
+      "links": [
+        {
+          "name": "Pusat Bantuan",
+          "href": "/help"
+        },
+        {
+          "name": "Dokumentasi",
+          "href": "/docs"
+        },
+        {
+          "name": "FAQ",
+          "href": "/faq"
+        },
+        {
+          "name": "Kontak",
+          "href": "/contact"
+        }
+      ]
+    }
+  ]
+}
